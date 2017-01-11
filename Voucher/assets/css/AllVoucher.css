@@ -1,0 +1,294 @@
+div.card {
+  margin-bottom:15px;
+  background-color:white;
+  border-radius:5px;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+span.detail {
+  font-size:1.5em;
+}
+
+td.left {
+  width:50%;
+  text-align:right;
+  font-weight:bold;
+}
+
+.expired{
+  background-color: #f44336;
+  padding: 5px 10px;
+}
+
+td.right {
+  width:50%;
+  text-align:left;
+  font-weight:500;
+}
+
+    
+
+.public {
+  background-color:#42b72a;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+table {
+  font-size:1.25em;
+}
+
+div.firstcard {
+  margin-top:75px;
+  padding:10px;
+  background-color:white;
+  border-radius:5px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:15px;
+  /*height:90px;*/
+}
+
+h1.title {
+  margin-left:15px;
+  font-weight:bold;
+}
+
+
+
+.bold {
+  font-weight:bold;
+}
+
+.left {
+  text-align:right;
+}
+
+.right {
+  text-align:left;
+}
+
+.complete {
+  width:100px;
+  background-color:#4CB9DA;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:center;
+  border-style:solid;
+  border-width:1px;
+}
+
+.pending {
+  width:100px;
+  background-color:#838383;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:center;
+  border-style:solid;
+  border-width:1px;
+}
+
+.approved {
+  width:100px;
+  background-color:#42B72A;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:center;
+  border-style:solid;
+  border-width:1px;
+}
+
+.borderless td, .borderless th {
+  border:none;
+}
+
+span.glyphicons.glyphicons-show-big-thumbnails {
+  color:black;
+}
+
+div.col-lg-2.col-md-2.col-sm-2.col-xs-3.col-xs-offset-0 {
+  margin-top:20px;
+}
+
+hr {
+  margin:0px;
+}
+
+span.badge.pending:hover {
+  color:#838383;
+  background-color:#FFFFFF;
+  border-style:solid;
+  border-width:1px;
+}
+
+span.badge.approved:hover {
+  /*color:#4cb862;*/
+  /*background-color:#FFFFFF;*/
+  /*border-style:solid;*/
+  /*border-width:1px;*/
+}
+
+span.badge.complete:hover {
+  /*color:#4CB9DA;*/
+  /*background-color:#FFFFFF;*/
+  /*border-style:solid;*/
+  /*border-width:1px;*/
+}
+
+h1.responsive-font {
+  font-size:6vh;
+}
+
+div.col-md-3.card {
+  margin-left:15px;
+}
+
+h4.grid {
+  font-weight:bold;
+}
+
+div.thumbnail {
+  /*box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  border-radius:5px;
+  padding:10px;
+  margin-bottom:30px;
+}
+
+img.listview {
+  width:100%;
+}
+
+div.col-lg-1.col-md-1.col-sm-1.firstcard.text-center.plus.hidden-xs {
+  margin-left:15px;
+  width:90px;
+}
+
+span.glyphicon.glyphicon-plus {
+  font-size:3em;
+  margin-top:15px;
+}
+
+div.col-md-6.text-right {
+  padding-top:20px;
+  padding-right:25px;
+}
+
+button.btn.btn-primary.dropdown-toggle {
+  font-weight:bold;
+}
+
+button.btn.btn-success {
+  font-weight:bold;
+}
+
+th.status-col {
+  /*width:10%;*/
+  /*width:100px;*/
+}
+
+th.profile-col {
+  /*width:10%;*/
+  /*width:100px;*/
+}
+
+span.profile {
+  background-color:#337ab7;
+  border-radius:5px;
+  border-style:solid;
+  border-color:#2d5f9a;
+  border-width:1px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+span.badge.profile:hover {
+  background-color:white;
+  border-radius:5px;
+  border-style:solid;
+  border-color:#2d5f9a;
+  color:#2d5f9a;
+}
+
+.btn-file {
+  position:relative;
+  overflow:hidden;
+}
+
+.btn-file input[type=file] {
+  position:absolute;
+  top:0;
+  right:0;
+  min-width:100%;
+  min-height:100%;
+  font-size:100px;
+  text-align:right;
+  opacity:0;
+  outline:none;
+  background:white;
+  cursor:inherit;
+  display:block;
+}
+
+div.thumbnail:hover {
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a.btn.btn-primary.bold {
+  width:100%;
+}
+
+span.badge.request {
+  background-color:#838383;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+th.list-col-1 {
+  width:15%;
+}
+
+th.list-col-2 {
+  width:45%;
+}
+
+th.list-col-3 {
+  width:10%;
+}
+
+th.list-col-4 {
+  width:15%;
+}
+
+img.list-img {
+  width:100%;
+}
+
+.list-margin {
+  margin-top:15px;
+}
+
+p.list-margin {
+  font-size:1.5em;
+}
+
+th.list-col-5 {
+  width:15%;
+}
+
+span.badge.public.list {
+  margin-top:20px;
+}
+
+h3.title {
+  margin-left:15px;
+}
+

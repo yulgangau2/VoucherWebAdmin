@@ -1,0 +1,263 @@
+.navbar-brand .glyphicon {
+  margin-right:6px;
+}
+
+.hero {
+  background:url(Background.jpg) no-repeat center;
+  background-size:cover;
+  border:none;
+  /*height:100%;*/
+}
+
+@media (min-width:992px) {
+  .hero .get-it {
+    text-align:right;
+    margin-top:80px;
+    padding-right:30px;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .get-it {
+    text-align:center;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .phone-preview {
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p {
+  color:#fff;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.9);
+  /*margin-bottom:40px;*/
+}
+
+.hero .get-it .btn {
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+div.iphone-mockup {
+  position:relative;
+  max-width:250px;
+  margin:20px;
+  display:inline-block;
+}
+
+.iphone-mockup img.device {
+  width:100%;
+  height:auto;
+}
+
+.iphone-mockup .screen {
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(screen-content-iphone-6.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.iphone-mockup .screen:before {
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+.icon-feature {
+  text-align:center;
+}
+
+.icon-feature .glyphicon {
+  font-size:60px;
+}
+
+section.features {
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2 {
+  color:#fff;
+}
+
+.features .icon-features {
+  margin-top:15px;
+}
+
+.testimonials blockquote {
+  text-align:center;
+}
+
+.site-footer {
+  padding:20px 0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5 {
+    text-align:left;
+  }
+}
+
+.site-footer h5 {
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover {
+  opacity:1;
+}
+
+.site-footer .social-icons a {
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons {
+    text-align:right;
+  }
+}
+
+div.jumbotron.hero {
+  max-width:100%;
+  height:auto;
+}
+
+button.navbar-toggle.collapsed {
+  color:white;
+}
+
+span.icon-bar {
+  background-color:white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color:#ffeeee;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color:#fcfcfc;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color:#333333;
+}
+
+.navbar-default .navbar-link:hover {
+  color:#ff9900;
+}
+
+section.Countdown {
+  background-color:white;
+  margin-top:-20px;
+  margin-bottom:-10px;
+  /*height:300px;*/
+  border-bottom:5px solid #4d4d4d;
+}
+
+h1#jumbotronheader.text-center {
+  padding-top:150px;
+  padding-bottom:150px;
+  line-height:130%;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color:#b30000;
+  font-weight:bold;
+  /*font-size:larger;*/
+  text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+  /*background-color:rgb(65,69,71);*/
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color:#fefdfd;
+  background-color:rgba(255,255,255,0.50);
+}
+
+div#YellowLine.col-md-12 {
+  width:100%;
+  height:55px;
+  background-color:#ff9900;
+}
+
+.navbar-inverse .navbar-link:hover {
+  color:#ff9900;
+}
+
+h3.link {
+  color:white;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.9);
+}
+
+img.link {
+  width:75px;
+}
+
+div.linkhigh {
+  height:200px;
+}
+
+body {
+  background-color:#e6e6e6;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color:#ff9900;
+  background-color:transparent;
+}
+
+.navbar {
+  /*position:relative;*/
+  min-height:50px;
+  margin-bottom:20px;
+  border:1px solid transparent;
+}
+
+.navbar-default .navbar-link {
+  color:#777777;
+}
+
+@media (min-width:768px) {
+  .navbar {
+    /*border-radius:4px;*/
+    border-bottom:3px solid #ff9900;
+  }
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  border-bottom:5px solid #ff9900;
+}
+
+li:hover {
+  background-color:#f2f2f2;
+}
+
