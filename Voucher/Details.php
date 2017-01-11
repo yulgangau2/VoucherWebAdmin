@@ -5,7 +5,7 @@ include ("connectdb.php");
 
 
 <!DOCTYPE html>
-<html>
+<htmls>
 
 <head>
     <meta charset="utf-8">
